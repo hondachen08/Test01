@@ -13,8 +13,7 @@
             <form id="multi-stock-form">
                 <label for="multi-tickers">選擇股票:</label>
                 <select id="multi-tickers" name="multi-tickers">
-                    <option value="5315.TWO_0056.TW">光聯x高股息</option>
-                    <option value="5315.TWO_^TWII">光聯x大盤</option>
+                    
                     <option value="2881.TW_^TWII">富邦x大盤</option>
                     <option value="0052.TW_^TWII">ETFx大盤</option>
                     <option value="2395.TW_^TWII">研華x大盤</option>
@@ -52,12 +51,6 @@
             var selectedValue = document.getElementById('multi-tickers').value;
             var tickers;
             switch (selectedValue) {
-                case "5315.TWO_0056.TW":
-                    tickers = ["5315.TWO", "0056.TW"];
-                    break;
-                case "5315.TWO_^TWII":
-                    tickers = ["5315.TWO", "^TWII"];
-                    break;
                 case "2881.TW_^TWII":
                     tickers = ["2881.TW", "^TWII"];
                     break;
